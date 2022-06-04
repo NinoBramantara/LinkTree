@@ -56,11 +56,49 @@ html, body {
     display: none;
 }
 @media(max-width: 700px){
+    html, body{
+        position: absolute;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .container{
+        position: absolute;
+        width: 100%;
+    }
+
     .maintenance {
         display: none;
     }
+
     .content{
-        display: block;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 25px;
+        text-align: center;
+    }
+    .img{
+        width: 40%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: coral;
+    }
+    .text{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: var(--font-semi-bold);
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .btn ul li{
+        align-items: center;
+        list-style: none;
     }
 }
 
