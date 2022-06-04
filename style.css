@@ -31,7 +31,38 @@ time, mark, audio, video {
 }
 
 
-
+html, body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.maintenance{
+    margin: 30px;
+}
+.maintenance p{
+    font-size: 30px;
+    font-weight: var(--font-semi-bold);
+}
+.maintenance span{
+    display: inline;
+}
+.content {
+    display: none;
+}
+@media(max-width: 700px){
+    .maintenance {
+        display: none;
+    }
+    .content{
+        display: block;
+    }
+}
 
 
 
