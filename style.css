@@ -95,11 +95,11 @@ html, body {
     }
     .text{
         margin-top: 20px;
-        margin-bottom: 20px;
-        font-weight: var(--font-semi-bold);
+        margin-bottom: 25px;
     }
     .text h1{
         font-size: 30px;
+        /* font-weight: var(--font-semi-bold); */
     }
     .btn{
         display: flex;
@@ -108,6 +108,18 @@ html, body {
     .btn ul li{
         align-items: center;
         list-style: none;
+        margin-bottom: 20px;
+    }
+    .btn ul li a button{
+        font-family: 'Poppins', sans-serif;
+        width: 270px;
+        height: 40px;
+        font-size: 18px;
+        color: black;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #c9702c;
     }
 }
 
