@@ -55,6 +55,9 @@ html, body {
 .content {
     display: none;
 }
+.footer {
+    display: none;
+}
 @media(max-width: 700px){
     html, body{
         position: absolute;
@@ -104,7 +107,7 @@ html, body {
 
 
     .text{
-        margin: 20px 20px 25px;
+        margin: 20px auto 25px;
     }
     .text h1{
         font-size: 30px;
