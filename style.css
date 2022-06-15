@@ -121,6 +121,26 @@ html, body {
         cursor: pointer;
         background-color: #c9702c;
     }
+    .footer{
+        bottom: 0;
+        position: absolute;
+        height: 20px;
+        width: 100%;
+        background-color: black;
+    }
+    .footer__div{
+        display: flex;
+        justify-content: center;
+    }
+    .footer__div p{
+        font-size: 12px;
+    }
+    .footer__div p .fa-heart {
+        color: red;
+    }
+    .footer__div p .fa-fire{
+        color: #fc6b03;
+    }
 }
 
 
