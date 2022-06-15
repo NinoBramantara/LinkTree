@@ -94,13 +94,17 @@ html, body {
         background-color: coral;
     }
     .text{
-        margin-top: 20px;
-        margin-bottom: 25px;
+        margin: 20px 20px 25px;
     }
     .text h1{
         font-size: 30px;
         /* font-weight: var(--font-semi-bold); */
     }
+    .text p{
+        font-size: 14px;
+    }
+
+
     .btn{
         display: flex;
         justify-content: center;
@@ -120,7 +124,14 @@ html, body {
         outline: none;
         cursor: pointer;
         background-color: #c9702c;
+        transition: 0.3s;
     }
+    .btn ul li a button:hover {
+        border-radius: 20px;
+        background-color: #8a4c1d;
+    }
+
+
     .footer{
         bottom: 0;
         position: absolute;
